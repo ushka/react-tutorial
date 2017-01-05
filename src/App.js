@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 // import logo from './logo.svg';
 import './App.css';
@@ -30,7 +30,6 @@ class Board extends React.Component {
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
-    // const status = 'Next player: X';
     return (
       <div>
         <div className="status">{status}</div>
