@@ -2,7 +2,7 @@
   "name": "storyboard-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ushka/react-tutorial",
+  "homepage": "https://ushka.github.io/react-tutorial/",
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -o react-tutorial -b develop -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
